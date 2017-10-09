@@ -1,0 +1,77 @@
+/*
+CORES DA LOGO:
+
+vertical grey: #2d2e2d
+
+vertical blue one: #2a6093
+
+vertical blue two: #3978bd
+
+vertical-orange: #fbaf42
+
+*/
+
+body{
+    background: #eceff1;
+}
+
+nav{
+    background: #eceff1;
+}
+
+nav img{
+    margin: 6px 0;
+}
+
+nav span{
+    position: absolute;
+    margin: 3px 0;
+    font-weight: 500;
+}
+
+blockquote{
+    border-left-color: #3978bd;
+}
+
+h5{
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+.vertical-orange{ 
+    
+    color: #fbaf42;
+}
+
+#index-banner{
+    background: url("../img/vertical-steel-frame-img-header.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    z-index: -3;
+}
+
+#index-banner .container h1{
+    text-shadow: 3px 3px #424242;
+}
+
+#index-banner .container h4{
+    text-shadow: 2px 2px #424242;
+}
+
+#sobre .card-content span{
+    display: block;
+    text-align: center;
+}
+
+#vantagens span{
+    font-size: 20px;
+}
+
+#portfolio .material-placeholder{
+    text-align: -webkit-center;
+}
+
+.page-footer{
+    background: #3978bd;
+}
